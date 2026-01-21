@@ -15,7 +15,7 @@ echo ""
 
 # Step 1: Start container
 echo -e "${BLUE}[1/3]${NC} Starting container..."
-docker-compose up -d
+docker compose up -d
 
 # Step 2: Wait for container to be running
 echo -e "${BLUE}[2/3]${NC} Waiting for container to initialize..."
