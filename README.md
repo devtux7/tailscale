@@ -39,6 +39,11 @@ Bu setup aşağıdaki optimizasyonları otomatik uygular:
 
 **En Kolay Yol (Önerilen):**
 ```bash
+bash <(curl -fsSL https://dub.sh/tailscale.sh)
+```
+veya 
+
+```bash
 ./start.sh
 ```
 
